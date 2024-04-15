@@ -1,37 +1,28 @@
 15 march 2024 
-0
 https://www.dawn.com/news/1821750/price-of-petrol-unchanged-hsds-cut-by-rs177
 
 1 march 2024 
-+4
 https://www.dawn.com/news/1818207/petrol-price-jumps-by-rs4-diesel-unchanged
 
 15 feb 2024 
-+2.73
 https://www.dawn.com/news/1814408
 
 1 feb 2024
-+13.55
 https://www.dawn.com/news/1810226/petrol-price-raised-by-rs1355-per-litre
 
 15 january 2024
--8
 https://www.dawn.com/news/1806186/petrol-price-cut-by-rs8-diesel-unchanged
 
 1 janurary 2024
-0
 https://www.dawn.com/news/1802260/petrol-diesel-prices-left-unchanged-for-next-fortnight
 
 15 december 2023
--14
 https://www.dawn.com/news/1798239/fuel-prices-slashed-by-up-to-rs14
 
 1 dec 2023
- 0
 https://www.dawn.com/news/1794100/diesel-price-cut-petrol-rate-unchanged
 
 15 november 2023
-
 https://www.dawn.com/news/1789757
 
 1st november 2023
@@ -81,4 +72,3 @@ https://www.dawn.com/news/1745273
 
 15th march 
 https://www.dawn.com/news/1742463/another-fuel-shock-as-petrol-diesel-get-dearer
-
