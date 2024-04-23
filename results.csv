@@ -1,51 +1,51 @@
-,Date,URL,Total_Score,Our_Score
-0,15 march 2024 ,"https://www.dawn.com/news/1821750/price-of-petrol-unchanged-hsds-cut-by-rs177
-",-1.5,-0.001452081316553727
-1,1 march 2024 ,"https://www.dawn.com/news/1818207/petrol-price-jumps-by-rs4-diesel-unchanged
-",-7.5,-0.0023674242424242425
-2,15 feb 2024 ,"https://www.dawn.com/news/1814408
-",-1.5,-0.0006124948958758677
-3,1 feb 2024,"https://www.dawn.com/news/1810226/petrol-price-raised-by-rs1355-per-litre
-",-6.0,-0.0015384615384615385
-4,15 january 2024,"https://www.dawn.com/news/1806186/petrol-price-cut-by-rs8-diesel-unchanged
-",-3.0,-0.0011009174311926607
-5,1 janurary 2024,"https://www.dawn.com/news/1802260/petrol-diesel-prices-left-unchanged-for-next-fortnight
-",-16.5,-0.007409070498428379
-6,15 december 2023,"https://www.dawn.com/news/1798239/fuel-prices-slashed-by-up-to-rs14
-",-5.25,-0.0024452724732184445
-7,1 dec 2023,"https://www.dawn.com/news/1794100/diesel-price-cut-petrol-rate-unchanged
-",-3.75,-0.0009752925877763329
-8,15 november 2023,"https://www.dawn.com/news/1789757
-",-8.25,-0.0024737631184407797
-9,1st november 2023,"https://www.dawn.com/news/1785459/petrol-diesel-unchanged-as-govt-skips-expected-price-cuts
-",-4.5,-0.0014191106906338694
-10,15 oct 2023,"https://www.dawn.com/news/1781060
-",-13.5,-0.006801007556675063
-11,1 oct 2023,"https://www.dawn.com/news/1778703
-",-1.5,-0.0009090909090909091
-12,15 sept 2023,"https://www.dawn.com/news/1776104/records-smashed-as-petrol-diesel-rise-to-rs330litre
-",-4.5,-0.0017751479289940828
-13,1 sept 2023,"https://www.dawn.com/news/1773413/fresh-hike-takes-petrol-diesel-beyond-rs300-per-litre
-",-3.0,-0.0010779734099892202
-14,16 aug 2023,"https://www.dawn.com/news/1770416/govt-increases-petrol-price-to-record-high
-",-2.25,-0.0007272139625080802
-15,1 aug 2023,"https://www.dawn.com/news/1767980/dar-blames-fuel-price-hike-on-global-trend
-",-9.75,-0.0029536504089669796
-16,16 july 2023,"https://www.dawn.com/news/1764994
-",-5.25,-0.002015355086372361
-17,1 july ,"https://www.dawn.com/news/1762523
-",-3.75,-0.0029644268774703555
-18,16 june,"https://www.dawn.com/news/1760034/petroleum-prices-unchanged
-",-0.75,-0.000847457627118644
-19,1 june ,"https://www.dawn.com/news/1757108
-",-4.5,-0.003709810387469085
-20,15 may,"https://www.dawn.com/news/1753465/ishaq-dar-announces-12-rupee-cut-in-petrol-prices
-",-4.5,-0.0032585083272990588
-21,1 may ,"https://www.dawn.com/news/1750270
-",-3.0,-0.002297090352220521
-22,15 april ,"https://www.dawn.com/news/1747930/petrol-goes-up-by-rs10
-",-2.25,-0.0019083969465648854
-23,1 april ,"https://www.dawn.com/news/1745273
-",-12.75,-0.005193482688391039
-24,15th march ,"https://www.dawn.com/news/1742463/another-fuel-shock-as-petrol-diesel-get-dearer
-",-6.0,-0.0029282576866764276
+,Unnamed: 0,Date,URL,Total_Score,Our_Score,Sentiment_Analysis_Score,Comments,Current price,Article rating
+0,0,16 March 2024,"https://www.dawn.com/news/1821750/price-of-petrol-unchanged-hsds-cut-by-rs177
+",-1.5,-0.0014520813165537,-3.2,Very neutral article,280.0,0
+1,1,1 March 2024,"https://www.dawn.com/news/1818207/petrol-price-jumps-by-rs4-diesel-unchanged
+",-7.5,-0.0023674242424242,0.0,Using jump creates an illusion of making a big difference creating negative impact.,284.0,-2
+2,2,16 February 2024,"https://www.dawn.com/news/1814408
+",-1.5,-0.0006124948958758,-3.1,The article itself doesnt use much polarising words but sort of leaves the sentiment that the gov itself decided to raise the fuel price for its benefit rather than it being forced by international oil prices,286.73,-1
+3,3,1 February 2024,"https://www.dawn.com/news/1810226/petrol-price-raised-by-rs1355-per-litre
+",-6.0,-0.0015384615384615,0.0,neutral,300.28000000000003,0
+4,4,16 January 2024,"https://www.dawn.com/news/1806186/petrol-price-cut-by-rs8-diesel-unchanged
+",-3.0,-0.0011009174311926,3.15,"Neutral even with a fuel price cut , when this couldve been a good opportunity to make the government look nice",292.28000000000003,0
+5,5,1 January 2024,"https://www.dawn.com/news/1802260/petrol-diesel-prices-left-unchanged-for-next-fortnight
+",-16.5,-0.0074090704984283,-3.2,The article is fairly nuetral except for one place where it shows that since last year the change has been of 50rs which leaves a bitter taste in the readers mind,292.28000000000003,-1
+6,6,16 December 2023,"https://www.dawn.com/news/1798239/fuel-prices-slashed-by-up-to-rs14
+",-5.25,-0.0024452724732184,-2.95,"Positive headline. A reader upon seeing this headline will feel good about the situation, as the use of ""slash"" suggests the government is taking strong action to reduce prices. However, the rest of the article is very neutral, simply listing reasons for the price reduction, with little opinionated language.",278.28000000000003,2
+7,7,1 December 2023,"https://www.dawn.com/news/1794100/diesel-price-cut-petrol-rate-unchanged
+",-3.75,-0.0009752925877763,-3.2,"Neutral headline. And a similarly neutral article as well. Very barebone, simply listing statistics and data.",278.28000000000003,0
+8,8,16 November 2023,"https://www.dawn.com/news/1789757
+",-8.25,-0.0024737631184407,-3.2,"Very neutral headline. Article suggests that it should have been reduced further, but was not due to ""clearance of a letter of credit"". Talks about diesel more than petrol and how for the first time in months, the price of HSD fell below 300.00 PKR.",276.28000000000003,1
+9,9,1 November 2023,"https://www.dawn.com/news/1785459/petrol-diesel-unchanged-as-govt-skips-expected-price-cuts
+",-4.5,-0.0014191106906338,-2.45,"The headline is slightly negative. It suggests that even though there should have been around a -17.00 PKR change in petrol prices, the government skipped them, giving a potential reason as to why. The rest of the article lists stats and data, which is neutral.",276.28000000000003,-1
+10,10,16 October 2023,"https://www.dawn.com/news/1781060
+",-13.5,-0.006801007556675,4.8,"Petrol prices decrease, the article has a positive tone, the headline uses the word 'slashed' trying to really highlight emotion regarding the price change, the article is also relatively short",236.28000000000003,1
+11,11,1 October 2023,"https://www.dawn.com/news/1778703
+",-1.5,-0.0009090909090909,-2.95,"Petrol prices decrease, the article has a neutral tone, it doesn't use any fancy words to convey the message, instead it just gives out the information regarding the decrease and the reasons for it.",228.28000000000003,0
+12,12,16 September 2023,"https://www.dawn.com/news/1776104/records-smashed-as-petrol-diesel-rise-to-rs330litre
+",-4.5,-0.001775147928994,-3.045,"Petrol prices increase, the article has a very negative tone, from the start it says 'a psychological barrier has been crossed' implying mental negativity, the headline also uses the word smashed, which suggests something being destroyed, words like ""highly inflationary"" add to the overall negative tone of the article.",254.30000000000004,-2
+13,13,1 September 2023,"https://www.dawn.com/news/1773413/fresh-hike-takes-petrol-diesel-beyond-rs300-per-litre
+",-3.0,-0.0010779734099892,-3.22,"Petrol prices increase, the article generally has a neutral tone, it lists the price hikes and the reasons for them, the headline can be seen as negative but its not something major.",269.21000000000004,0
+14,14,16 August 2023,"https://www.dawn.com/news/1770416/govt-increases-petrol-price-to-record-high
+",-2.25,-0.000727213962508,-3.31,"Petrol price increases, the article has a negative tone as it uses phrases like 'record high', 'massive hike' etc. It really tries to sell the fact that petrol prices have dramatically increased, it appears as the article is trying to elevate the situation",286.71000000000004,-2
+15,15,1 August 2023,"https://www.dawn.com/news/1767980/dar-blames-fuel-price-hike-on-global-trend
+",-9.75,-0.0029536504089669,-3.555,"Petrol and diesel prices both increase, the article has a plain negative tone, the overall tone is one of concern and criticism, especially regarding the impact of the fuel price increase on consumers and the economy.",306.71000000000004,-1
+16,16,16 July 2023,"https://www.dawn.com/news/1764994
+",-5.25,-0.0020153550863723,-4.165,"Petrol and diesel prices both decrease, interesting to note is that the length of the article is much longer when compared to articles that have a price increase. The headline states 'Petrol, diesel fall to near rs250 after fresh cuts', using an approximation to indicate the price instead of revealing the exact price can be seen as negative as it goes away from being completely neutral as exists to grab attention.",297.71000000000004,-1
+17,17,1 July 2023,"https://www.dawn.com/news/1762523
+",-3.75,-0.0029644268774703,-3.4600000000000004,"Petrol prices stay the same, diesel price is decreased by rs 7.5, overall. The article has a pretty neutral tone.",297.71000000000004,0
+18,18,16 June 2023,"https://www.dawn.com/news/1760034/petroleum-prices-unchanged
+",-0.75,-0.0008474576271186,-2.045,"Smallest article so far, barely a 1 minute read. Mentions Dar again, and quotes him as saying there are no changes. Very little to analise in this article, simply lists the numbers as it.",297.71000000000004,0
+19,19,1 June 2023,"https://www.dawn.com/news/1757108
+",-4.5,-0.003709810387469,-3.74,"Much smaller article than the previous one. Similar approach used, Dar had been quoted. Petrol -8 and HSD -5. Dar says the government is trying its best to provide relief. Article also talks about how these cuts come successively after another cut two weeks ago, possibly crediting the government for its effots.",289.71000000000004,2
+20,20,16 May 2023,"https://www.dawn.com/news/1753465/ishaq-dar-announces-12-rupee-cut-in-petrol-prices
+",-4.5,-0.003258508327299,-3.515,"Petrol -12, Diesel -30. The article quotes Ishaq Dar's televised announcement, in which he said that the government is trying to provide maximum relief to the public. One could make a claim that the article is agreeing with the sentiments by including that quote in the article. Other than the quote, the rest of the article mainly just lists data and analytical figures without involving much sentimental/emotional terminology.",277.71000000000004,1
+21,21,1 May 2023,"https://www.dawn.com/news/1750270
+",-3.0,-0.0022970903522205,-3.015,"Yet another neutral article, lists the petroleum products and their respective price cuts. HSD cut by 5, Kerosene and LDO cut by 10.",277.71000000000004,0
+22,22,16 April 2023,"https://www.dawn.com/news/1747930/petrol-goes-up-by-rs10
+",-2.25,-0.0019083969465648,0.0,"The headline does not employ any emotional words, the headline is very plain simply listing the price increase. The article itself is very concise, mentioning the price increase for petrol and also talking about how diesel remains unchanged. Listing data mostly without any emotional words involved.",287.71000000000004,0
+23,23,1 April 2023,"https://www.dawn.com/news/1745273
+",-12.75,-0.005193482688391,0.0,"Despite there being a decrease in fuel price, the article suggests that it isn't as low as it should be. Also talks of closure of Jamshoro Joint Venture gas processing plant causing losses. I would score this a 3 out of 10.",277.71000000000004,-2
+24,24,16 March 2023,"https://www.dawn.com/news/1742463/another-fuel-shock-as-petrol-diesel-get-dearer
+",-6.0,-0.0029282576866764,-3.95,"Relatively neutral. Most of the article is just statistics really. On a scale from 1 to 10, with 1 being extremely pessimistic and 10 being extremely optimistic, I rate this article a 4.",290.71000000000004,-1
