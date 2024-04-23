@@ -1,5 +1,4 @@
-Neutral article, neutral headline. The article simply lists the new prices of petrol and diesel, with no opinionated language. It also talks about the reasons behind the price change, like improving dollar rate and lower international fuel prices.
-One could also say that in the article, it says that "For the first time since coming to power, the government has reduced the prices of petroleum products." which is a positive thing to say, and could signal better hope for the future.
+Comments: Petrol prices decrease, the article has a neutral tone, it doesn't use any fancy words to convey the message, instead it just gives out the information regarding the decrease and the reasons for it.
 
-Total Price Change: -8.00 PKR
-Article Rating: +1
+Total price change: PKR
+Article rating: 0

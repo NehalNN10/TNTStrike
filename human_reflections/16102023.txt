@@ -1,4 +1,4 @@
-The headline in particular has a positive sentiment. "Major relief" tells that the situation is improving. Article cites the international drop in oil prices and appreciating ruppee as the reason for the relief. Also talks about how this could halt the trend of inflation, which is a very positive thing to say.
+Comments: Petrol prices decrease, the article has a positive tone, the headline uses the word 'slashed' trying to really highlight emotion regarding the price change, the article is also relatively short
 
-Total Price Change: -40.00 PKR
-Article Raing: +4
+Total price change: PKR
+Article rating: 1

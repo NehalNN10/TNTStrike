@@ -12,31 +12,35 @@ headers = {
 # Function to get the inner HTML or article body of a webpage
 def get_inner_html(url):
     # Send a GET request to the webpage
-    response = requests.get(url, headers=headers)
+    try:
+        response = requests.get(url, headers=headers. timeout = 2)
 
-    # Check if the request was successful
-    if response.status_code == 200:
-        # Parse the webpage content using BeautifulSoup
-        soup = BeautifulSoup(response.text, "html.parser")
+        # Check if the request was successful
+        if response.status_code == 200:
+            # Parse the webpage content using BeautifulSoup
+            soup = BeautifulSoup(response.text, "html.parser")
 
-        # Find the main content element, such as <div>, <article>, etc., containing the article body
-        # Adjust the CSS selector according to the structure of the webpage
-        main_content = soup.find("div", class_="story__content")  # Example CSS selector
-        # If the main content element is found, return the text inside the tags
+            # Find the main content element, such as <div>, <article>, etc., containing the article body
+            # Adjust the CSS selector according to the structure of the webpage
+            main_content = soup.find("div", class_="story__content")  # Example CSS selector
+            # If the main content element is found, return the text inside the tags
 
-        # we also need to include the headline
-        headline = soup.find("h1", class_="story__title")
-        if headline is None:
-            headline = soup.find("h2", class_="story__title")
-        # headline = soup.find("h1")
-        # print(headline.text)
-        if main_content and headline:
-            return str(headline.text) + str(main_content.text)
+            # we also need to include the headline
+            headline = soup.find("h1", class_="story__title")
+            if headline is None:
+                headline = soup.find("h2", class_="story__title")
+            # headline = soup.find("h1")
+            # print(headline.text)
+            if main_content and headline:
+                return str(headline.text) + str(main_content.text)
 
-    # Return None if the inner HTML or article body couldn't be retrieved
-    print(f"Error {response.status_code}: Could not find page!", url)
-    # print(response.status_code)
+        # Return None if the inner HTML or article body couldn't be retrieved
+        print(f"Error {response.status_code}: Could not find page!", url)
+        # print(response.status_code)
+    except requests.exceptions.Timeout as e:
+        print(f"Error: Timeout error for {url}")
     return None
+
 
 def sentiment_analysis(words, sentiment_lexicon):
     sc = 0
@@ -55,7 +59,7 @@ sentiment_lexicon = pd.read_csv('custom_lexicon.csv')
 # print(sentiment_lexicon.columns)
 # print(sentiment_lexicon.head())
 
-links = open("dawnlinks .txt", "r")
+links = open("dawnlinks.txt", "r")
 arr = links.readlines()
 total_lines = len(arr)
 print(total_lines)
@@ -86,3 +90,4 @@ for i in range(total_lines):
         text_mine.loc[len(text_mine.index)] = [date, url, total_score, our_score]
 # TODO: Put all results into dataframe and then plot points onto a graph
 print(text_mine)
+csv = text_mine.to_csv("results.csv", index=True)
