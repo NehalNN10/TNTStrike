@@ -100,6 +100,7 @@ months = {
     "November": "11",
     "December": "12"
 }
+
 '''
 text_mine = pd.DataFrame(text_mine)
 
